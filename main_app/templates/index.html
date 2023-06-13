@@ -89,18 +89,29 @@
     </div>
   </div>
   <hr style='margin-bottom:50px;'>
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <img class='img-thumbnail' src='https://i.imgur.com/n1GKRiH.png' alt='NavigatEDU' />
+        <div class="container">
+          <div class="carousel-caption" style='color:white;'>
+            <h1>NavigatEDU</h1>
+            <p>An app that teaches people the finer points of browser use for those with limited online knowledge.</p>
+            <p><a class="btn btn-lg btn-primary" href="#scrollspyHeading4">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
         <img class='img-thumbnail' src='https://i.imgur.com/VYTkK4q.png' alt='eyebleach' />
         <div class="container">
-          <div class="carousel-caption">
+          <div class="carousel-caption" style='color:white;'>
             <h1>Eyebleach</h1>
             <p>An app to show you amusing or cute images, gifs or videos, accompanied by some interesting facts to soothe your soul after a long day in the depths of the internet.</p>
             <p><a class="btn btn-lg btn-primary" href="#scrollspyHeading4">Learn More</a></p>
@@ -110,7 +121,7 @@
       <div class="carousel-item">
         <img class='img-thumbnail' src='https://user-images.githubusercontent.com/95185347/149530653-dcd84a0f-b1c7-4892-812e-d53c2c3dffd5.png' alt='wildtexasthrift' />
         <div class="container">
-          <div class="carousel-caption">
+          <div class="carousel-caption" style='color:white;'>
             <h1>Wild Texas Thrift</h1>
             <p>A showcase for an online thrift store that exhibits a variety of dresses available for sale.</p>
             <p><a class="btn btn-lg btn-primary" href="#scrollspyHeading5">Learn more</a></p>
@@ -120,7 +131,7 @@
       <div class="carousel-item">
         <img class='img-thumbnail' src='https://i.imgur.com/eJ6YGqe.jpg' alt='warhandler' />
         <div class="container">
-          <div class="carousel-caption">
+          <div class="carousel-caption" style='color:white;'>
             <h1>Warhandler</h1>
             <p>For the popular tabletop game, Warhammer 40,000, this app allows people to take a peek into the world and see the many factions, people and creatures found in the game.</p>
             <p><a class="btn btn-lg btn-primary" href="#scrollspyHeading6">Learn more</a></p>
@@ -130,7 +141,7 @@
       <div class="carousel-item">
         <img class='img-thumbnail' src='https://i.imgur.com/XSBchGz.png' alt='jobappapp' />
         <div class="container">
-          <div class="carousel-caption">
+          <div class="carousel-caption" style='color:white;'>
             <h1>Jobapp App</h1>
             <p>An app to help keep track of all the job application documentation a person needs to apply for jobs.</p>
             <p><a class="btn btn-lg btn-primary" href="#scrollspyHeading7">Learn More</a></p>
@@ -151,9 +162,40 @@
 
   <!-- Marketing messaging and featurettes
   ================================================== -->
-
-    <!-- START THE FEATURETTES -->
+  <!-- START THE FEATURETTES -->
   <div id='scrollspyHeading4' class="container marketing">
+    <hr style='margin-bottom:40px; margin-top:40px'>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <a  target='_blank' href='https://navigatedu.netlify.app/'><h2>NavigatEDU</h2></a>
+        <p class="lead">Built for a General Assembly Hackathon, working with 3 other SWE and 5 UX/UI Designers over a course of 5 days. We made this site under the topic of Digital Equity and Accessibility and it was made as a tool to teach people how to use tools of the internet, like the browser. It also has a way to change the language of the website so people of all nationalities could use the website.</p>
+        <div class="row">
+        <div class="col-md-6 order-md-1">
+          <p class='lead'>A team of 4 Software Engineers:</p>
+          <ul>
+            <li>Chris McClarin: Full Stack</li>
+            <li>Brian McCune: Frontend</li>
+            <li>Maggie Yu: Frontend</li>
+            <li>Dustin Greyfield: Backend</li>
+          </ul>
+        </div>
+        <div class="col-md-6 order-md-2">
+          <p class='lead'>A team of 5 UX/UI Designers:</p>
+          <ul>
+            <li>Colleen Barrett</li>
+            <li>Gregory Beacham</li>
+            <li>Jessica Page</li>
+            <li>Mike Bresnahan</li>
+            <li>Zachary Jasper</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <div class="col-md-5">
+        <iframe src='https://i.imgur.com/WIwYv9h.mp4' type='video/mp4'>
+        </iframe>
+      </div>
+    </div>
     <hr  class="featurette-divider">
 
     <div class="row featurette">
@@ -190,7 +232,7 @@
         <p class="lead">Warhammer 40K is a tabletop miniatures game by Games Workshop, and it is one of the most popular army scale tabletop games in the world. As in other miniature wargames, players enact battles using miniature models of warriors and fighting vehicles. This website keeps track of all the different statistics of the units and allows you to build and set up your own units. This was made with React as a frontend framework and ExpressJS as the backend. To supplement this website, I am going to make a list making system that will allow a user to build their own army list.</p>
         <p class='lead'>A team of 3 members made this project:</p>
         <ul>
-          <li>Chris McClarin: Scrum and frontend developer</li>
+          <li>Chris McClarin: Scrum and Frontend Developer</li>
           <li>Andy Terwilliger: CSS Developer and Full Stack Developer</li>
           <li>Kendlyn Marriott: Backend Developer and PitchDeck</li>
         </ul>
@@ -214,7 +256,7 @@
         </iframe>
       </div>
     </div>
-    <hr style='margin-bottom:40px; margin-top:40px'>
+    <hr class="featurette-divider">
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
